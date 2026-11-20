@@ -1,0 +1,17 @@
+root = true
+
+[*.{kt,kts}]
+charset = utf-8
+indent_style = space
+indent_size = 4
+insert_final_newline = true
+ktlint_code_style = ktlint_official
+max_line_length = off
+ij_kotlin_allow_trailing_comma = true
+ij_kotlin_allow_trailing_comma_on_call_site = true
+# Compose function names follow the repository's PascalCase convention.
+ktlint_function_naming_ignore_when_annotated_with = Composable
+
+# Preserve the supplied ZIP's public design-token names (Compose-style PascalCase).
+[app/src/main/java/com/kirana/fefoguard/ui/{theme,glass,motion}/**.kt]
+ktlint_standard_property-naming = disabled

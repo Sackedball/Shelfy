@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cold-start window: paper canvas instead of a white flash; Compose takes over edge to edge. -->
+    <style name="Theme.FefoGuard" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/kirana_canvas</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>

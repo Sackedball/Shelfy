@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Mirrors Palette.Paper / Palette.Kohl so the window and Compose canvas match exactly. -->
+    <color name="kirana_canvas">#FFF4F1EA</color>
+</resources>
